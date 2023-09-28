@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-image: url(./images/restaurant.jpg);
+    background-size: cover;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 8% 1fr 8%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #fdba74;
+}
+
+.bar button {
+    border-style: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #fdba74;
+}
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 8rem;
+}
+
+.quote {
+    color: white;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #fdba74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3/4;
+}
+
+.menu-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: antiquewhite;
+}
+
+.menu-item {
+    border-style: solid;
+}
+
+form {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-top {
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.message-input {
+    width: 50%;
+    height: 10rem;
+}
+
+button[type='submit'] {
+    width: 25%;
+    align-self: center;
+}
+
+
+
+
+
